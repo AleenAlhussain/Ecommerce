@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Shopping Cart || Cart Page</title>
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/cart.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  </head>
+  <body style="background-color: #ddd">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+      <a href="index.html" class="logo">
+        <img src="assets/img/team/logo.png" alt="" />
+      </a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li>
+              <a href="index.html#hero" class="active">Home<br /></a>
+            </li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#product">Products</a></li>
+            <li><a href="index.html#services">Services</a></li>
+
+            <li><a href="index.html#team">Team</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="btn-getstarted flex-md-shrink-0" id="links" href="login.html"
+          >Login</a
+        >
+        <ul id="user_info" class="user_info">
+          <li><a href="#" class="btn-user" id="user"></a></li>
+          <li class="shopping_cart">
+            <i class="bi bi-cart4"></i>
+            <span class="badge"></span>
+            <div class="carts_products">
+              <div class="carts_products-content"></div>
+              <a href="cartsproducts.html">View All Products</a>
+            </div>
+          </li>
+          <li>
+            <a href="#" id="logout"> <i class="bi bi-box-arrow-right"></i></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section>
+      <div class="card home">
+        <div class="row">
+          <div class="col-md-8 cart">
+            <div class="title">
+              <div class="row">
+                <div class="col">
+                  <h4><b>Shopping Cart</b></h4>
+                </div>
+                
+              </div>
+            </div>
+            <div class="products"></div>
+            <div class="back-to-shop">
+              <a href="#">&leftarrow;</a
+              ><span class="text-muted"><a href="index.html#product">Back to shop</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container section-title">
+        <h2>Favorites</h2>
+        <p>Your Favorites List</p>
+      </div>
+      <div class="container">
+        <div id="favorite-slider" class="favorite-slider"></div>
+    
+      </div>
+      
+        
+    
+    
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="assets/js/carts.js"></script>
+    <script src="assets/js/user.js"></script>
+
+  </body>
+</html>
